@@ -5,4 +5,7 @@ st.title("Hello Streamlit")
 st.write("Welcome to the first app")
 
 name = st.text_input("Please enter your name")
+if st.button("Say hello"):
+    st.success("greet now")
+
 
