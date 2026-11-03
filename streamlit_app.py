@@ -5,10 +5,11 @@ st.title("Hello Streamlit")
 st.write("Welcome to the first app")
 
 name = st.text_input("Please enter your name")
+hobby= st text_input("Please enter your hobby")
 if st.button("Say hello"):
-    if name:
-        st.success(f"greet now {name}")
+    if name and hobby:
+        st.success(f"great {name} enjoy {hobby}")
     else:
-        st.warning("Please give your name first")
+        st.warning("Please fill name and hobby both")
 
 
