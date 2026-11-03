@@ -6,6 +6,9 @@ st.write("Welcome to the first app")
 
 name = st.text_input("Please enter your name")
 if st.button("Say hello"):
-    st.success("greet now")
+    if name:
+        st.success(f"greet now {name}")
+    else:
+        st.warning("Please give your name first")
 
 
