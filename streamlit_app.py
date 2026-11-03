@@ -1,5 +1,6 @@
 import streamlit as st
 
-st.title("Hello how are you today. you have learnt a lot")
+st.title("Hello Streamlit")
 
-st.header("how")
+st.write("provide the details")
+st.text_input("What is your name")
