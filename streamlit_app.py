@@ -7,3 +7,5 @@ st.text_input("What is your name")
 if st.button("Say hello"):
     if name:
         st.success(f"hello {name}")
+    else:
+        st.warning("Please enter the name")
