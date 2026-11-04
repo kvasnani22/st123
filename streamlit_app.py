@@ -12,9 +12,9 @@ hobby= st.sidebar.text_input("Please enter your hobby")
 greet=st.sidebar.button("Say hello")
 if greet:
     if name and hobby:
-        st.success(f"great {name} enjoy {hobby}")
+        st.sidebar.success(f"great {name} enjoy {hobby}")
     else:
-        st.warning("Please fill name and hobby both")
+        st.sidebar.warning("Please fill name and hobby both")
 
 st.divider()
 st.header("Data explorer")
