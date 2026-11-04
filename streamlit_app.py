@@ -18,3 +18,9 @@ if st.button("Say hello"):
 st.divider()
 st.header("Data explorer")
 
+data = pd.DataFrame(
+    np.random.randn(20, 3),
+    columns=["A", "B", "C"]
+)
+st.dataframe(data)
+
