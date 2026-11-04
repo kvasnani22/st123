@@ -10,7 +10,7 @@ name = st.sidebar.text_input("Please enter your name")
 hobby= st.sidebar.text_input("Please enter your hobby")
 
 greet=st.sidebar.button("Say hello")
-if st.button("Say hello"):
+if greet:
     if name and hobby:
         st.success(f"great {name} enjoy {hobby}")
     else:
