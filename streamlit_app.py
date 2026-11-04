@@ -22,6 +22,8 @@ data = pd.DataFrame(
     np.random.randn(20, 3),
     columns=["A", "B", "C"]
 )
+select= st.selectbox("which data do you require in line chart",["A","B","C"])
+
 st.dataframe(data)
-st.line_chart(data)
+st.line_chart(data[select])
 
