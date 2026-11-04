@@ -5,7 +5,7 @@ import numpy as np
 st.title("Hello Streamlit")
 
 st.write("Welcome to the first app")
-st.sidebar.text_input("Controls")
+st.sidebar.header("Controls")
 name = st.sidebar.text_input("Please enter your name")
 hobby= st.sidebar.text_input("Please enter your hobby")
 
