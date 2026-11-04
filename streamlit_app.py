@@ -23,4 +23,5 @@ data = pd.DataFrame(
     columns=["A", "B", "C"]
 )
 st.dataframe(data)
+st.linechart(data)
 
