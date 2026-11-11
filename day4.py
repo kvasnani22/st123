@@ -8,3 +8,7 @@ uploaded = st.sidebar.file_uploader("Upload a CSV", type=["csv"])
 if uploaded is None:
     st.info("upload as CSV")
     st.stop()
+
+df= st.read_csv(uploaded")
+st.subheader("Preview")
+st.dataframe(df)
