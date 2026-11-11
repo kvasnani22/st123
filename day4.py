@@ -4,4 +4,4 @@ st.write("Upload the CSV to analyse")
 st.sidebar.header("Controls")
 st.sidebar.subheader("Controls sub header2")
 st.sidebar.write(" controls write")
-#uploaded = st.uploader
+uploaded = st.sidebar.file_uploader("Upload a CSV", type=["csv"])
