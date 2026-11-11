@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 st.title("CSV dashboard")
 st.write("Upload the CSV to analyse")
 st.sidebar.header("Controls")
