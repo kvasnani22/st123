@@ -1,0 +1,9 @@
+date,item,amount,quantity,category
+2026-11-01,Tea,20,2,Food
+2026-11-01,Bus,15,1,Travel
+2026-11-02,Book,150,1,Study
+2026-11-02,Coffee,40,2,Food
+2026-11-03,Pen,10,3,Study
+2026-11-03,Train,60,1,Travel
+2026-11-04,Lunch,120,1,Food
+2026-11-04,Notebook,45,2,Study
