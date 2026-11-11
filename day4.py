@@ -5,3 +5,6 @@ st.sidebar.header("Controls")
 st.sidebar.subheader("Controls sub header2")
 st.sidebar.write(" controls write")
 uploaded = st.sidebar.file_uploader("Upload a CSV", type=["csv"])
+if uploaded is None:
+    st.info("upload as CSV")
+    st.stop()
