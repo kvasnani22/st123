@@ -9,6 +9,6 @@ if uploaded is None:
     st.info("upload as CSV")
     st.stop()
 
-df= st.read_csv(uploaded")
+df= st.read_csv(uploaded)
 st.subheader("Preview")
 st.dataframe(df)
