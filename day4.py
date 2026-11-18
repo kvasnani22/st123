@@ -4,3 +4,5 @@ st.title("day 5 loading")
 count = 0
 if st.button("+1"):
     count =+1
+
+st.subheader(f'count is{count}')
