@@ -5,6 +5,6 @@ if "count" not in st.session_state:
     st.session_state.count =0
 
 if st.button("+1"):
-    st.session_state.count =+1
+    st.session_state.count +=1
 
 st.subheader(f'count is {st.session_state.count}')
