@@ -7,4 +7,4 @@ if "count" not in st.session_state:
 if st.button("+1"):
     count =+1
 
-st.subheader(f'count is{count}')
+st.subheader(f'count is {st.session_state.count}')
