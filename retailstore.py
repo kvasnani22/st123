@@ -1,2 +1,2 @@
 import streamlit as st
-st.title("Retail store"
+st.title("Retail store")
