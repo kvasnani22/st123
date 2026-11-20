@@ -10,6 +10,6 @@ if "checkins" not in st.session_state:
 if st.button("check-in"):
     st.session_state.checkins+=1
 
-st.write(" checkin is +=1")
+st.write(" checkin is {st.sessionstate.checkins}")
 
     
