@@ -12,7 +12,7 @@ if "sales" not in st.session_state:
 if st.button("Sell"):
     st.session_state.sales +=1
 
-st.write(f" sales is {st.session_state.sales})
+st.write(f" sales is {st.session_state.sales}")
 
 
 
