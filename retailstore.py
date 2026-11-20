@@ -9,7 +9,7 @@ st.divider()
 st.subheader("Quick sales counter")
 if "sales" not in st.session_state:
     st.session_state.sales=0
-st.button("Sell"):
+if st.button("Sell"):
     st.session_state.sales +=1
 
 st.write(f" sales is {st.session_state.sales})
